@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+    <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+</head>
+<body>
+<div id="app"></div>
+<script>
+    window.$docsify = {
+        name: '我是标题',
+        // repo: 'https://github.com/docsifyjs/docsify/', // 配置仓库地址，会在页面右上角渲染一个Github插件
+        homepage: 'README.md', // 主页文件
+        loadNavbar: true, // 开启导航栏,默认为_navbar.md文件
+        loadSidebar: true, // 定制侧边栏
+        subMaxLevel: 2, // 显示目录最大层级
+        auto2top: true, // 切换页面后是否自动跳转到页面顶部
+        notFoundPage: true,
+        // 搜索框
+        search: {
+            paths: 'auto',
+            placeholder: '🔍 搜索',
+            noData: '找不到结果',
+            // Headline depth, 1 - 6
+            depth: 6,
+            maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        },
+        count: { // 字数统计插件
+            countable: true,
+            fontsize: '0.9em',
+            color: 'rgb(90,90,90)',
+            language: 'chinese'
+        },
+        pagination: {
+            previousText: '上一章节',
+            nextText: '下一章节',
+            crossChapter: true,
+            crossChapterText: true,
+        },
+    }
+</script>
+<!-- Docsify v4 -->
+<script src="//fastly.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<!--搜索插件-->
+<script src="//fastly.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+<!--图片缩放插件-->
+<script src="//fastly.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+<!--复制到粘贴板插件-->
+<script src="//fastly.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+<!--字数统计插件-->
+<!--<script src="//unpkg.com/docsify-count/dist/countable.js"></script>-->
+<!--分页导航插件-->
+<script src="//fastly.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+<!--emoji表情-->
+<script src="//fastly.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+<!--语法高亮插件-->
+<script src="//fastly.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/prismjs@1/components/prism-solidity.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/prismjs@1/components/prism-cshtml.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
+<!-- L2D模型 -->
+<!-- https://github.com/xiazeyu/live2d-widget.js -->
+<script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+<script>
+    L2Dwidget.init({
+        "model": {
+            "jsonPath": "https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json",
+            "scale": 1
+        },
+        "display": {
+            "position": "right", //看板娘的表现位置
+            "width": 70,  //小萝莉的宽度
+            "height": 140, //小萝莉的高度
+            "hOffset": 35,
+            "vOffset": -20
+        },
+        "mobile": {
+            "show": true,
+            "scale": 0.5
+        },
+        "react": {
+            "opacityDefault": 0.7,
+            "opacityOnHover": 0.2
+        }
+    });
+</script>
+<!--Gitalk评论系统-->
+<!--<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>-->
+<!--<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>-->
+<!--<script>-->
+<!--    const gitalk = new Gitalk({-->
+<!--        clientID: 'Github Application Client ID',-->
+<!--        clientSecret: 'Github Application Client Secret',-->
+<!--        repo: 'Github repo',-->
+<!--        owner: 'Github repo owner',-->
+<!--        admin: ['Github repo collaborators, only these guys can initialize github issues'],-->
+<!--        // facebook-like distraction free mode-->
+<!--        distractionFreeMode: false-->
+<!--    })-->
+<!--</script>-->
+</body>
+</html>
