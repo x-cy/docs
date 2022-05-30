@@ -2,6 +2,7 @@
 
 * [首页](/)
 * [solidity](doc/solidity)
+  * [ERC-20](doc/solidity/ERC20)
 * [web3](doc/solidity)
 * [EVM](doc/solidity)
 * [Docsify中文文档](doc/solidity)
