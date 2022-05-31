@@ -6,7 +6,7 @@ ERC20包括:
 
 #### 9个方法
 ```solidity
-// Token名称：Ethereum
+# Token名称：Ethereum
 function name() public view returns (string)
 // Token符号：ETH
 function symbol() public view returns (string)
