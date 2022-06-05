@@ -1,7 +1,8 @@
 <!-- docs/_sidebar.md -->
 
-* [首页](doc/introduction.md)
+* [首页](doc/introduction)
 * [solidity](doc/solidity)
+  * [函数可见性](doc/solidity/fun_type)
   * [ERC-20](doc/solidity/ERC20)
 * [web3](doc/solidity)
 * [EVM](doc/solidity)
