@@ -116,19 +116,19 @@
 * [IPFS 使用入门](https://learnblockchain.cn/2018/12/25/use-ipfs/)
 
 ## Substrate
-[Substrate 入门（1）- 环境配置与编译 ](https://learnblockchain.cn/article/273)
-[Substrate 入门（2）- 运行与调试](https://learnblockchain.cn/2019/12/21/substrate-run-debug)
-[Substrate 入门（3）- 具备状态的链](https://learnblockchain.cn/2019/12/22/substrate-state)
-[Substrate 入门（4）- 项目结构](https://learnblockchain.cn/2019/12/23/substrate-struct)
-[Substrate 入门（5）- 区块头](https://learnblockchain.cn/2019/12/30/substrate-header)
-[Substrate 入门（6）- 交易体](https://learnblockchain.cn/article/330)
-[Substrate 入门（7）- Substrate的模型设计](https://learnblockchain.cn/article/331)
-[Substrate 入门（8）- Runtime概要](https://learnblockchain.cn/article/348)
-[Substrate 入门（9）- Runtime的wasm与native](https://learnblockchain.cn/article/382)
-[认识 Substrate 及开发准备](https://learnblockchain.cn/2018/10/20/substrate-base)
-[Substrate 总览(1) - 设计](https://learnblockchain.cn/2019/03/02/substrate-project)
-[Substrate 总览(2) - 项目结构](https://learnblockchain.cn/2019/03/10/substrate-structure)
-[Substrate 总览(3) - 入门参考](https://learnblockchain.cn/2019/11/05/substrate-start)
+* [Substrate 入门（1）- 环境配置与编译 ](https://learnblockchain.cn/article/273)
+* [Substrate 入门（2）- 运行与调试](https://learnblockchain.cn/2019/12/21/substrate-run-debug)
+* [Substrate 入门（3）- 具备状态的链](https://learnblockchain.cn/2019/12/22/substrate-state)
+* [Substrate 入门（4）- 项目结构](https://learnblockchain.cn/2019/12/23/substrate-struct)
+* [Substrate 入门（5）- 区块头](https://learnblockchain.cn/2019/12/30/substrate-header)
+* [Substrate 入门（6）- 交易体](https://learnblockchain.cn/article/330)
+* [Substrate 入门（7）- Substrate的模型设计](https://learnblockchain.cn/article/331)
+* [Substrate 入门（8）- Runtime概要](https://learnblockchain.cn/article/348)
+* [Substrate 入门（9）- Runtime的wasm与native](https://learnblockchain.cn/article/382)
+* [认识 Substrate 及开发准备](https://learnblockchain.cn/2018/10/20/substrate-base)
+* [Substrate 总览(1) - 设计](https://learnblockchain.cn/2019/03/02/substrate-project)
+* [Substrate 总览(2) - 项目结构](https://learnblockchain.cn/2019/03/10/substrate-structure)
+* [Substrate 总览(3) - 入门参考](https://learnblockchain.cn/2019/11/05/substrate-start)
 
 ## FileCoin
 
