@@ -6,18 +6,16 @@
 
 ## 比特币
 如果你是还不知比特币是什么，那就看看[比特币是什么](https://learnblockchain.cn/2017/10/23/whatisbitcoin/)
+
 ### 基础入门
 接下来可以通过下面这几篇文章了解比特币大概的运行原理：
 
 * [区块链记账原理](https://learnblockchain.cn/2017/10/25/whatbc/)
   通过这篇可以了解到区块链是一个怎样的结构
-
 * [比特币所有权及隐私问题](https://learnblockchain.cn/2017/11/02/bitcoin-own/)
   通过这篇可以了解到地址私钥 非对称加密应用 等概念
-
 * [比特币如何挖矿](https://learnblockchain.cn/2017/11/04/bitcoin-pow/)
   通过这篇了解工作量证明
-
 * [比特币如何达成共识 - 最长链的选择](https://learnblockchain.cn/2017/12/07/bitcoin-sonsensus/)
   通过这篇可以了解共识机制。
 
@@ -151,13 +149,14 @@
 * [15 filecoin源码分析之节点运行逻辑](https://learnblockchain.cn/2019/03/10/filecoin-code-analysis-15/)
 
 ## go实现区块链(Bitcoin)
-[golang 实现区块链(Bitcoin)系列 1 - 基本原型](https://learnblockchain.cn/article/577)  
-[golang 实现区块链(Bitcoin)系列 2 - 工作量证明](https://learnblockchain.cn/article/580)  
-[golang 实现区块链(Bitcoin)系列 3 - 持久化和命令行接口](https://learnblockchain.cn/article/586)  
-[golang 实现区块链(Bitcoin)系列 4 - 交易(1)](https://learnblockchain.cn/article/619)  
-[golang 实现区块链(Bitcoin)系列 5 - 地址](https://learnblockchain.cn/article/637)  
-[golang 实现区块链(Bitcoin)系列 6 - 交易(2)](https://learnblockchain.cn/article/674)
-[golang实现区块链(Bitcoin)系列7 - 网络](https://learnblockchain.cn/article/677)
+
+* [golang 实现区块链(Bitcoin)系列 1 - 基本原型](https://learnblockchain.cn/article/577)  
+* [golang 实现区块链(Bitcoin)系列 2 - 工作量证明](https://learnblockchain.cn/article/580)  
+* [golang 实现区块链(Bitcoin)系列 3 - 持久化和命令行接口](https://learnblockchain.cn/article/586)  
+* [golang 实现区块链(Bitcoin)系列 4 - 交易(1)](https://learnblockchain.cn/article/619)  
+* [golang 实现区块链(Bitcoin)系列 5 - 地址](https://learnblockchain.cn/article/637)  
+* [golang 实现区块链(Bitcoin)系列 6 - 交易(2)](https://learnblockchain.cn/article/674)
+* [golang实现区块链(Bitcoin)系列7 - 网络](https://learnblockchain.cn/article/677)
 
 ## 其他
 
